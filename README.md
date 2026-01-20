@@ -66,7 +66,7 @@ In a nutshell, we support the sales prospecting journey:
 
 In this challenge you will be implementing the UI for the second pillar of Surfe, **Enrichment**. 
 
-Provided is an existing Contact Profile page that shows basic information about the contact with two fields, **Phone** and **Email**, left empty and editable by the user. We want you to implement the enrichment functionality that will update these two fields using the provided API endpoints.
+Provided is an existing Contact Profile page that initially shows basic, mocked, information about the contact with two fields, **Phone** and **Email**, left empty and editable by the user. We want you to implement the enrichment functionality that will update these two fields using the provided API endpoints.
 
 ---
 
@@ -80,6 +80,7 @@ Provided is an existing Contact Profile page that shows basic information about 
 
 ### Feature Requirements
 
+- The contacts should be fetched from the API
 - Users can start enrichment for Email or Phone via a button next to each field
 - The fields should still be editable when enrichment is not in progress
 - While enrichment is in progress, hovering over a field shows which provider(s) are currently being queried
